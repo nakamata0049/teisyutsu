@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Code17_09 {
-
+	//ファイルが開いた時だけcloseする
 	public static void main(String[] args) {
 		FileWriter fw = null;
 		try {
